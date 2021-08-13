@@ -82,7 +82,7 @@ A kérdőjelek azt jelzik, hogy a paraméter **opcionális** (elhagyható).
 		
 		}: Object!,
 	
-		session_id: String
+		session_id: String!
 	}: Object!
 
 
