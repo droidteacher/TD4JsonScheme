@@ -190,8 +190,7 @@ A kérdőjelek azt jelzik, hogy a paraméter **opcionális** (elhagyható).
 
 	data class GpsResponse(
 	    val result: Boolean,
-	    @SerializedName("new_request")
-	    val newRequest: Boolean
+	    @SerializedName("new_request") val newRequest: Boolean
 	)
 	
 ---
