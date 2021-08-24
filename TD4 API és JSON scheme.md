@@ -47,21 +47,24 @@ A kérdőjelek azt jelzik, hogy a paraméter **opcionális** (elhagyható).
 			enabled: Boolean!,
 			visible: Boolean!,
 			name: String!, 
-			value: String!
+			value: String!,
+			type: String?
 		}: Object!,
 		
 		edit2: {
 			enabled: Boolean!,
 			visible: Boolean!,
 			name: String!, 
-			value: String!
+			value: String!,
+			type: String?
 		}: Object!,
 		
 		edit3: {
 			enabled: Boolean!,
 			visible: Boolean!,
 			name: String!, 
-			value: String!
+			value: String!,
+			type: String?
 		}: Object!,
 	
 		select1: {
@@ -123,6 +126,7 @@ A kérdőjelek azt jelzik, hogy a paraméter **opcionális** (elhagyható).
     	val visible: Boolean,
     	val name: String,
     	val value: String,
+    	val type: String?,
 
     	@SerializedName("alt") val hint: String?
 	): Serializable
